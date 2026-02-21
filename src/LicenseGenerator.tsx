@@ -170,7 +170,7 @@ export default function LicenseGenerator() {
                         </button>
                     </div>
                     <div className="space-y-3">
-                        {history.map((item, idx) => (
+                        {history.map((item) => (
                             <div
                                 key={item.timestamp}
                                 className="group flex items-center justify-between p-4 bg-white/40 hover:bg-white rounded-2xl border border-transparent hover:border-gray-100 transition-all cursor-pointer"
